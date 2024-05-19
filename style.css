@@ -1,0 +1,25 @@
+body{
+    background-color: rgb(48, 48, 113);
+    font-family: Arial, Helvetica, sans-serif;
+    color:white
+}
+
+.navbar{
+    background-color: rgb(188, 155, 205);
+   padding: 10px 10px;
+}
+.navlist{
+    list-style: none;
+    border-radius: 5px;
+    display: flex;
+    justify-content:end;
+    gap: 25px;
+    align-items:center;
+    text-decoration: none;
+}
+.abt{
+    background-color: rgb(124, 124, 174);
+}
+.footer-container{
+margin-top: 8rem;
+}
