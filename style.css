@@ -1,25 +1,64 @@
-body{
-    background-color: rgb(48, 48, 113);
-    font-family: Arial, Helvetica, sans-serif;
-    color:white
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
 }
 
-.navbar{
-    background-color: rgb(188, 155, 205);
-   padding: 10px 10px;
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
 }
-.navlist{
+
+nav ul {
     list-style: none;
-    border-radius: 5px;
+    margin: 0;
+    padding: 0;
     display: flex;
-    justify-content:end;
-    gap: 25px;
-    align-items:center;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
     text-decoration: none;
+    font-size: 18px;
 }
-.abt{
-    background-color: rgb(124, 124, 174);
+
+section {
+    padding: 60px 20px;
+    text-align: center;
 }
-.footer-container{
-margin-top: 8rem;
+
+#home {
+    background-color: #f4f4f4;
+}
+
+#about, #work, #resume, #contact {
+    background-color: #e2e2e2;
+    margin-top: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-image {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
 }
