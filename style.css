@@ -1,64 +1,91 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    color: #333;
+*{
+    margin:0;
+    padding:0;
 }
 
-header {
-    background-color: #333;
-    color: white;
-    padding: 10px 0;
+.main{
+    width:100%;
+    background: url(Images/background.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    font-family: sans-serif;
 }
-
-nav ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
+.navbar{
+    width: 86%;
     display: flex;
-    justify-content: center;
-}
-
-nav ul li {
-    margin: 0 15px;
-}
-
-nav ul li a {
-    color: white;
-    text-decoration: none;
-    font-size: 18px;
-}
-
-section {
-    padding: 60px 20px;
-    text-align: center;
-}
-
-#home {
-    background-color: #f4f4f4;
-}
-
-#about, #work, #resume, #contact {
-    background-color: #e2e2e2;
-    margin-top: 20px;
-}
-
-footer {
-    background-color: #333;
-    color: white;
-    padding: 20px 0;
-    text-align: center;
-}
-
-.footer-content {
-    display: flex;
-    flex-direction: column;
+    margin: auto;
+    padding: 15px 0;
     align-items: center;
+    justify-content: space-between;
+}
+ul{
+    margin-top: 4%;
 }
 
-.footer-image {
-    border-radius: 50%;
-    width: 100px;
-    height: 100px;
-    margin-bottom: 10px;
+ul li {
+    list-style: none;
+    display: inline-block;
+    padding:10px 16px;
+}
+
+ul li a{
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    color:rgb(11, 120, 120);
+    margin-top: 3%;
+}
+ h1{
+    margin-top: 3%;
+    color:rgb(13, 100, 100);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+ }
+ul li a:hover{
+    color:rgb(213, 108, 34);
+}
+.info{
+    margin-left: 5%;
+    margin-top: 3%;
+}
+.info h1{
+    font-size: 150%;
+    color: rgb(11, 6, 2);
+}
+h4{
+    font-size: 15px;
+    letter-spacing: 1px;
+    line-height: 24px;
+}
+.info span{
+    color: rgb(213, 108, 34);
+}
+.info a{
+    text-decoration: none;
+    color: rgb(213, 108, 34);
+    background:rgb(11, 6, 2);
+    margin: 26px 0px;
+    padding: 10px;
+    border-radius: 10px;
+    display: inline-block;
+    transition: .7s ease;
+}
+.info a:hover{
+    background: rgb(21, 149, 149);
+}
+.image{
+    width: 30%;
+    height:45%;
+    position: absolute;
+    right: 60px;
+    bottom:0;
+}
+
+.image img{
+    position: absolute;
+    height: 140%;
+    left: 100%;
+    transform: translate(-50%);
+    bottom: 0;
 }
