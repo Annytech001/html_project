@@ -13,12 +13,12 @@
     font-family: sans-serif;
 }
 .navbar{
-    width: 86%;
+    width: 40%;
     display: flex;
     margin: auto;
-    padding: 15px 0;
-    align-items: center;
-    justify-content: space-between;
+    padding: 10px 15px;
+    align-items:center;
+    justify-content:flex-end;
 }
 ul{
     margin-top: 4%;
@@ -85,7 +85,27 @@ h4{
 .image img{
     position: absolute;
     height: 140%;
-    left: 100%;
+    left: 46%;
     transform: translate(-50%);
     bottom: 0;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+ 
+}
+.image:hover .girl{
+    left:55%;
+}
+.icons a{
+    text-decoration: none;
+    color: black;
+}
+.icons{
+    margin-left: 5%;
+    color: black;
+    margin-right: 65px;
+    font-size: 25px;
+    transition: .4 ease;
+}
+
+.icons ion-icon:hover{
+    background: rgb(21, 149, 149);
 }
