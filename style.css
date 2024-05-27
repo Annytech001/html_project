@@ -66,14 +66,44 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-right: 40px;
 }
 .main .content .info{
     width: 40%;
 }
+.main .content .info h1{
+    margin-bottom: 20px;
+    font-size: 35px;
+    color: whitesmoke;
+}
+
+.main .content .info h4{
+    color:#460a28;
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+.main .content .info p{
+    color: rgb(31, 31, 128);
+    margin-bottom: 50px;
+    font-size: 18px;
+}
 .main .content .mypropic{
     width: 40%;
-    padding-right: 40px;
 }
 .main .content .mypropic img{
     width: 100%;
+}
+
+.main .content .info .btn{
+    padding: 15px 20px;
+    background-color: #460a28;
+    border:#460a28;
+    color: whitesmoke;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.main .content .info .btn:hover{
+    color: #460a28;
+    transition: 0.3s;
+    background-color: transparent;
 }
