@@ -89,9 +89,16 @@
 }
 .main .content .mypropic{
     width: 40%;
+    background-color: #460a28;
+    padding:10px;
+    border: 8px solid;
+    border-color: #b3648c;
+    border-radius: 50%;
+    display: inline-block;
 }
 .main .content .mypropic img{
-    width: 80%;
+    width: 100%;
+    border-radius: 50%;
 }
 
 .main .content .info .btn{
