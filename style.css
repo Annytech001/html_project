@@ -196,3 +196,28 @@ button{
 button:hover{
     background-color: #b3648c;
 }
+.contact-info{
+    text-align:left;
+}
+.contact-info h3{
+    font-size: 25px;
+    margin-bottom: 20px;
+    color: #460a28;
+}
+.contact-info p{
+    margin-bottom: 15px;
+    color: #460a28;
+}
+.contact-info i{
+    color: rgb(31, 31, 128);
+    margin-right: 10px;
+}
+@media screen and(max-width: 768px){
+    .container{
+        padding: 20px;
+    }
+    .contact-main{
+        grid-template-columns: 1fr;
+
+    }
+}
